@@ -1,0 +1,224 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(195, 218, 232);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    font-size: 24px;
+    color: rgb(191, 163, 124);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(191, 163, 124);
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+#login {
+    background-color: rgb(191, 163, 124);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+#logo a {
+    color: rgb(191, 163, 124);
+    text-decoration: none;
+}
+
+#hero {
+    background-color: rgb(195, 218, 232);
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero h1, #hero p {
+    color: rgb(191, 163, 124);
+}
+
+.cta-button {
+    background-color: rgb(191, 163, 124);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2, #about p {
+    color: rgb(191, 163, 124);
+}
+
+.core-values {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.value {
+    width: 100px;
+    text-align: center;
+}
+
+.value img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#how-it-works {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.step {
+    width: 200px;
+    margin: 10px 0;
+}
+
+#how-it-works h3, #how-it-works p {
+    color: rgb(191, 163, 124);
+}
+
+#listings {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.listing-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.listing-card {
+    width: 200px;
+    border: 1px solid rgb(191, 163, 124);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.listing-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tags {
+    display: block;
+    margin-top: 10px;
+    color: rgb(191, 163, 124);
+}
+
+#testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.review {
+    width: 300px;
+    margin: 10px;
+    color: rgb(191, 163, 124);
+}
+
+#testimonials .cta-button {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(195, 218, 232);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info p, .legal a {
+    color: rgb(191, 163, 124);
+}
+
+.social-media a {
+    margin: 0 5px;
+    color: rgb(191, 163, 124);
+}
+
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(191, 163, 124);
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: rgb(191, 163, 124);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #333;
+}
